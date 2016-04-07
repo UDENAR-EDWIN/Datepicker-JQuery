@@ -1,7 +1,6 @@
 $(function () {
   $("#datepicker").datepicker({
-    changeMonth: true,
-    changeYear: true,
-    yearRange: "1993:2020"
+    minDate: "-0D",
+    maxDate: "+2M, -10D"
   });
 });
