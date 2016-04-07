@@ -20,26 +20,24 @@ h1 {
   color: white;
 }
 
-.contenedor-calendario {
-  width: 325px;
-  height: 40px;
-  margin-top: 15px;
-  text-align: center;
-  /*background-color: white;*/
-}
-
-.botones-calendario {
-  width: 110px;
-  height: 50px;
+.contenedor-fecha {
+  width: 400px;
+  height: 80px;
+  margin: auto;
+  border: 3px solid #183245;
   border-radius: 10px;
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  font-weight: bold;
-  background-color: #a33535;
+  padding: 30px 0 0 0;
+  text-align: center;
+  background-color: #bfc3cc;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
-.btn-encender {
-  background-color: #288548;
+.txt-fecha {
+  height: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .ui-widget {
