@@ -1,12 +1,8 @@
 $(function () {
-  $("#datepicker").datepicker({
-    //showButtonPanel: true
-    defaultDate: "23/03/2000"
-  });
-});
-
-$(function () {
-  $("#enviar").click(function () {
-    $("#datepicker").datepicker("setDate","+5m");
-  });
+  $("#dialogo").click(function () {
+    $("#datepicker").datepicker("dialog","",actualizar);
+    function actualizar(date) {
+      $("#datepicker").val(date);
+    }
+  })
 });
