@@ -7,6 +7,10 @@ body{
   background-color: #8aa1c1;
 }
 
+div {
+  margin: auto;
+}
+
 h1 {
   text-align: center;
   margin-top: 100px;
@@ -16,27 +20,29 @@ h1 {
   color: white;
 }
 
-.contenedor-fecha {
-  width: 400px;
-  height: 80px;
-  margin: auto;
-  border: 3px solid #183245;
-  border-radius: 10px;
-  padding: 30px 0 0 0;
+.contenedor-calendario {
+  width: 325px;
+  height: 40px;
+  margin-top: 15px;
   text-align: center;
-  background-color: #bfc3cc;
-  font-size: 20px;
-  font-family: sans-serif;
+  /*background-color: white;*/
 }
 
-.txt-fecha {
-  height: 30px;
-  font-size: 20px;
-  font-family: sans-serif;
-  text-align: center;
+.botones-calendario {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: bold;
+  background-color: #a33535;
+}
+
+.btn-encender {
+  background-color: #288548;
 }
 
 .ui-widget {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-family: courier;
 }

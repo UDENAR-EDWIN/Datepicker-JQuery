@@ -1,7 +1,18 @@
 $(function () {
   $("#datepicker").datepicker({
-    onSelect: function(date) {
-      $('#et-fecha').html(date);
-    }
   });
 });
+
+// Funcion para Ocultar el Calendario
+$(function () {
+  $("#apagar").click(function () {
+    $("#datepicker").datepicker().hide();
+  })
+})
+
+// Función para Mostrar el Calendario
+$(function () {
+  $("#encender").click(function () {
+    $('#datepicker').datepicker().show();
+  })
+})
