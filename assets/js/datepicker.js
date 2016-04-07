@@ -1,8 +1,7 @@
 $(function () {
-  $("#dialogo").click(function () {
-    $("#datepicker").datepicker("dialog","",actualizar);
-    function actualizar(date) {
-      $("#datepicker").val(date);
-    }
-  })
+  $("#datepicker").datepicker({
+    changeMonth: true,
+    changeYear: true,
+    yearRange: "1993:2020"
+  });
 });

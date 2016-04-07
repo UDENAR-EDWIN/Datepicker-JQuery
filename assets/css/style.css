@@ -20,25 +20,6 @@ h1 {
   color: white;
 }
 
-.contenedor-calendario {
-  width: 325px;
-  height: 40px;
-  margin-top: 15px;
-  text-align: center;
-  /*background-color: white;*/
-}
-
-.botones-calendario {
-  width: 60px;
-  height: 60px;
-  border-radius: 100px;
-  border: none;
-  background: url('../images/dialog.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #4c3d70;
-}
-
 .contenedor-fecha {
   width: 400px;
   height: 80px;
