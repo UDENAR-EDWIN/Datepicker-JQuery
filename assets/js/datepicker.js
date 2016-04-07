@@ -1,5 +1,5 @@
 $(function () {
   $("#datepicker").datepicker({
-    showWeek: true
+    showButtonPanel: true
   });
 });
