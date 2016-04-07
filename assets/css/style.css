@@ -24,3 +24,15 @@ h1 {
   font-size: 1.5em;
   font-family: courier;
 }
+
+#et-fecha {
+  text-align: center;
+  padding: 30px 0 0 0;
+  width: 425px;
+  height: 80px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 50px;
+  font-family: courier;
+}
