@@ -3,16 +3,16 @@ $(function () {
   });
 });
 
-// Funcion para Ocultar el Calendario
+// Funcion para Deshabilitar el Calendario
 $(function () {
-  $("#apagar").click(function () {
-    $("#datepicker").datepicker().hide();
+  $("#deshabilitar").click(function () {
+    $("#datepicker").datepicker('option','disabled',true);
   })
 })
 
-// Función para Mostrar el Calendario
+// Función para Habilitar el Calendario
 $(function () {
-  $("#encender").click(function () {
-    $('#datepicker').datepicker().show();
+  $("#habilitar").click(function () {
+    $('#datepicker').datepicker('option','disabled',false);
   })
 })
