@@ -1,6 +1,17 @@
+// Elige el Rango minimo para el otro Calendario
 $(function () {
-  $("#datepicker").datepicker({
-    minDate: "-0D",
-    maxDate: "+2M, -10D"
+  $("#from").datepicker({
+    onClose: function (selectedDate) {
+      $("#to").datepicker("option","minDate",selectedDate);
+    }
   });
 });
+
+// Elige el Rango maximo para el otro Calendario
+$(function () {
+  $("#to").datepicker({
+    onClose: function (selectedDate) {
+      $("#from").datepicker("option","maxDate",selectedDate);
+    }
+  });
+})

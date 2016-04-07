@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 body{
@@ -22,7 +23,7 @@ h1 {
 
 .contenedor-fecha {
   width: 400px;
-  height: 80px;
+  height: 130px;
   margin: auto;
   border: 3px solid #183245;
   border-radius: 10px;
@@ -38,6 +39,8 @@ h1 {
   font-size: 20px;
   font-family: sans-serif;
   text-align: center;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .ui-widget {
